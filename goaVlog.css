@@ -1,0 +1,163 @@
+body {
+    background-color: #f5f2eb;
+}
+
+.container a:link,
+.container a:visited {
+    color: rgb(9, 0, 14);
+    border: lightcoral;
+    border-style: double;
+}
+
+.container a:hover,
+.container a:active {
+    background-color: orangered;
+    color: black;
+    border-width: 5pt;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ead296;
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.container img {
+    position: relative;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.container video {
+    position: relative;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.container iframe {
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+header div {
+    background: url('https://d26lfat00jharn.cloudfront.net/blog/wp-content/uploads/2019/03/Ashwem-beach-min-1024x683.jpg');
+    background-size: 50%;
+    height: 190px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+section {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.poolImg {
+    position: relative;
+    padding: 3%;
+    border-radius: 100px;
+    width: 50%;
+    height: 380px;
+    display: inline-block;
+    background-size: 100% 380px;
+    background-image: url("raw fottages/pool.jpg");
+    filter: opacity(50%);
+}
+
+#comment {
+    margin-top: -350px;
+    margin-left: 420px;
+    position: absolute;
+    width: 45%;
+    color: black;
+    font-weight: bold;
+    border: 5px solid grey;
+    border-radius: 20px;
+    text-decoration-style: wavy;
+    padding: 3%;
+}
+
+.name {
+    text-align: right;
+    margin-right: 50px;
+    size: 50px;
+}
+
+.right,
+.left {
+    font-size: 10em;
+    cursor: pointer;
+}
+
+.screen {
+    overflow: hidden;
+    width: 320px;
+    height: 568px;
+}
+
+.slider {
+    position: relative;
+    float: left;
+    height: 568px;
+    width: 700px;
+    left: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.slider img {
+    position: relative;
+    float: left;
+    height: 400px;
+    width: 320px;
+}
+
+.screen:hover .slider {
+    left: -320px;
+}
+
+footer {
+    height: 300px;
+    background-color: #1f2022;
+    color: #aaa;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+}
+
+footer span:hover,
+footer span:focus {
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+    cursor: pointer;
+}
+
+.footer i {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+footer span {
+    justify-content: center;
+    margin: 20px;
+}

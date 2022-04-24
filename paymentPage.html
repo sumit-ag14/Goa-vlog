@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+
+    <link rel="stylesheet" href="paymentpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>Payment Page</h1>
+        <h3>Contact Information</h3>
+
+        <div class="row">
+            <div class="col-3">
+                <label for="name">Name</label>
+                <input type="text" required placeholder="name">
+            </div>
+            <!-- <div class="col"><input type="text" required placeholder="name"></div> -->
+
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <label for="number"> Phone Number</label>
+                <select name="phone code" id="code">
+                     <option value="code">+91</option>
+                    <option value="code">+1</option>
+                </select>
+                <input type="text" required placeholder="name">
+
+
+            </div>
+            <!-- <div class="col">
+                <input type="text" required placeholder="name"></div>
+
+        </div> -->
+
+
+
+
+
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="">Male
+                <input type="radio" name="gender" id="">Female
+            </fieldset>
+            <p>Email Id<input type="email" name="email" id="email"></p>
+            <br>
+            <hr>
+            <h1>Payment Information</h1>
+            <p>Card type
+                <select name="card_type" id="type">
+        <option value="">--Select card type--</option>
+        <option value="Visa">Visa</option>
+<option value="Rupay">Rupay</option>
+<option value="Mastercard">Mastercard</option>
+</select>
+                <p>Card Number <input type="number" name="Card_number" id="Card_number" required></p>
+                <p>Expiry <input type="date" name="Date" id="" required></p>
+                <p>CVV <input type="password" name="cvv" id="cvv" required></p>
+                <i class="fa fa-lock" style="font-size: 40px; margin-left: 42%; margin-top: 20px; position:absolute;"></i> <br>
+                <input type="submit" value='Pay Now'>
+    </form>
+</body>
+
+</html>
